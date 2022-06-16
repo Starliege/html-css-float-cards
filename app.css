@@ -39,6 +39,8 @@ header {
     font-size: 30px;
 }
 
+/* Impostazioni righe e colonne */
+
 .colo {
     float: left;
     width: calc(100%/3);
@@ -50,6 +52,8 @@ header {
     display: table;
     clear: both;
   }
+
+/* Impostazioni card */
 
   .card {
     box-shadow: 2px -2px 5px red;;
