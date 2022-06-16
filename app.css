@@ -33,8 +33,64 @@ header {
     text-shadow: 2px -2px black;
 }
 
-main {
+.muchotexto {
+    margin-bottom: 60px;
     text-align: center;
     font-size: 30px;
 }
 
+.colo {
+    float: left;
+    width: calc(100%/3);
+    padding: 0 20px;
+  }
+
+  .riga:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .card {
+    box-shadow: 2px -2px 5px red;;
+    padding: 0px;
+    background-color: black;
+    float: left;
+    width: 450px;
+    color: red;
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .riga {
+    margin: 0 -5px;
+    margin-bottom: 50px;
+}
+
+  .card > img {
+    float: left;
+  }
+
+  .card > h3,p {
+    margin-left: 120px;
+    margin-top: 5px;
+  }
+
+  .card > h3 {
+    margin-top: 8px;
+  }
+
+  .card > p {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 24px;
+    color: darkred;
+    font-weight: bold;
+  }
+
+  a {
+    text-decoration: none;
+    color: gray;
+  }
