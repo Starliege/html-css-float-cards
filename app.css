@@ -1,0 +1,40 @@
+/* Impostazioni Default */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.debug *{
+    border: 1px solid red;
+    padding: 5px;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#logotainer {
+    padding: 30px;
+}
+
+.logo {
+    color: red;
+    font-weight: 400;
+    font-size: 72px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px -2px black;
+}
+
+main {
+    text-align: center;
+    font-size: 30px;
+}
+
